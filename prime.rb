@@ -18,12 +18,10 @@ def prim?(numbers)
   return false if numbers < 2
   (2..numbes -1).each do |i|
   if numbers % i == 0
-    return
-    false 
-    elsif
-    true 
+    return false 
   end 
   end
+  true 
 end 
 
 
