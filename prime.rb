@@ -16,12 +16,11 @@
 
 def prime?(numbers)
   return false if numbers < 2
-  (2..numbers -1).each do |i|
-  if numbers % i == 0
-    return false 
+  (2.. numbers -1).each do |i|
+    if numbers % i == 0
+    end 
   end 
-  end
-  true 
+  true
 end 
 
 
