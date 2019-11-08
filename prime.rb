@@ -4,8 +4,8 @@ def prime?(value)
     return false 
   elsif 
   (2..value -1).each do |i|
-    value % i == 0
-  if return false
+  if value % i == 0
+  return false
   end 
   end
   end 
